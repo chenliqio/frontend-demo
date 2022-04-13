@@ -1,0 +1,17 @@
+.flexwrap
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:320px;
+    height: 320px;
+    align-content: space-between;
+}
+.box
+{
+    box-sizing: border-box;
+    width:100px;
+    height:100px;
+    background-color:orange;
+    margin:5px;  
+}
