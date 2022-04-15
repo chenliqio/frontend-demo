@@ -1,0 +1,40 @@
+@media screen and(min-width:750px){}
+.back
+{
+    background-image:url(./diandian.png);
+    background-size: 652px;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 32px;
+    padding-left: 49px;
+    padding-right:49px;
+}    
+.box1
+{
+    width:750px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 206px;
+    padding-right:206px;
+    padding-top: 76px; 
+}
+.box2
+{
+width:750px;
+text-align: center;
+padding-top: 40px;
+padding-left: 220px;
+padding-right:220px;
+}
+.box3
+{
+width:750px;
+background-size: 400px 90px;
+background-color: #62CC74 100%;
+padding-top: 55px;
+padding-left: 175px;
+padding-right: 175px;
+text-align: center;
+font-size: 30px;
+}
+

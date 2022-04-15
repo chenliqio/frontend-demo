@@ -1,0 +1,19 @@
+@media screen and(min-width:750px){}
+.back
+{
+    background-color: #F7F7F7 100%;
+    background-size:750px 1206px;
+}
+.box1
+{
+width:750px;
+height: 200px;
+background-color: #FFFFFF 100%;
+}
+.img1
+{
+    width: 122px;
+    height: 122px;
+    padding: 10px 208px 14px 320px;
+    content:url(./icon-portrait.png);
+}

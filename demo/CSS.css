@@ -4,8 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width:320px;
-    height: 320px;
-    align-content: space-between;
+    justify-content: center;
 }
 .box
 {
