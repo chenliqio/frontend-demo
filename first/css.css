@@ -14,27 +14,28 @@
     width:750px;
     text-align: center;
     font-size: 30px;
-    padding-left: 206px;
-    padding-right:206px;
     padding-top: 76px; 
+    position: relative;
+   
 }
 .box2
 {
-width:750px;
-text-align: center;
-padding-top: 40px;
-padding-left: 220px;
-padding-right:220px;
+    width:750px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+   
 }
-.box3
+.back1
 {
-width:750px;
-background-size: 400px 90px;
-background-color: #62CC74 100%;
-padding-top: 55px;
-padding-left: 175px;
-padding-right: 175px;
-text-align: center;
-font-size: 30px;
+    display: flex;
+    width:400px;
+    height:90px;
+    background: #62CC74;
+    justify-content: center;
+    margin-top: 55px;
+    position: relative;
+    left: 220px;
+    align-items: center;
 }
 
