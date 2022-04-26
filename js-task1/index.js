@@ -10,7 +10,8 @@ window.onload =()=>{
     }
     function ChangeColor(el,colors){
         el.forEach((item,index)=>{
-            item.style.backgroundColor=colors[index]
+            item.style.backgroundColor=colors[index] //卡不懂这个代码的意思
+    
         })
     }
     let btn_start = document.getElementById('start');
