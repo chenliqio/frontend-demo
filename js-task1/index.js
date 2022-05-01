@@ -24,6 +24,7 @@ window.onload =()=>{
             ChangeColor(threeEl,ThreeColor)
         }, 2000)
     })
+    // click 只打印一次
     btn_end.addEventListener('click',()=>{
         clearInterval(interval)
     })
