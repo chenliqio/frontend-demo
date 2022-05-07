@@ -1,6 +1,7 @@
-.body{
+body{
     margin: 0px;
 }
+/* 是标签，  */
 .page{
     background: #F7F7F7;
     min-height: 100vh;
@@ -12,25 +13,41 @@
     font-size: 14px;
     line-height: 40px;
 }
+.pay{
+    color:#62CC74 ;
+    border-bottom: 2px solid #62CC74 ;
+    border-radius: 1px;
+}
+.wrapper{
+    padding-left:18.5px;
+    padding-right: 20px;
+    background:#FFFFFF;
+}
 .list{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+/* 分割 */
 .num{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     background:#FFFFFF;
-    border-bottom: 2px solid #F7F7F7;
-   
+    border-bottom: 2px solid #F7F7F7; 
+    line-height:45px; 
 } 
-.order_num{
-    line-height:45px;
+.order_num{ 
     font-size: 14px; 
+    color: #979797;
+} 
+.order_pay{
+    font-size: 14px; 
+    color: #F96C57;
 }
+/* 分割 */
 .content{
-    line-height: 112px;
+    height: 112px;
     background: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -52,54 +69,59 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
+/*  */
 .total{
     border-top: 1px solid #F7F7F7;
-    line-height: 83px;
+    height: 83px;
     background: #FFFFFF;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: flex-end;
-   
+    margin-bottom: 10px; 
+    
 }
 .state{
     display:flex;
-    justify-content: flex-start;
-    padding-left: 19px;
+    align-items: flex-start;
     font-size: 14px;
-    align-items: center;
+    padding-top: 12.5px;
+    padding-left: 13px;
+}
+.font_style1{
+   
+    color:#393931;
+}
+.font_style2{
+   
+    color:#F96C57;
+} 
+.font_style3{
+   
+    color:#3D3D3D;
+} 
+.btn{
+    height:28px;
+    display: flex;
+    justify-content:flex-end;
 }
 .btn1{
-    display: flex;
-    justify-content: center;
-    width: 63px;
-    height:28px;
     border:1px solid #000;
-    border-radius: 5px;   
-}
-.black{
-    font-size: 14px;
+    border-radius: 5px; 
+    margin-right: 12px; 
+    font-size: 13px;
     display:flex;
     align-items: center;
-    justify-content: center;
 }
 .btn2{
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-    width: 63px;
-    height:28px;
     background: #F96C57;
     border-radius: 5px; 
-}
-.white{
     display:flex;
     align-items: center;
     justify-content: center;
     color:#FFFFFF;
-    font-size: 14px;
+    font-size: 13px;
 }
+
 .last{
-line-height: 63px;
+height: 63px;
 position: fixed;
 }
