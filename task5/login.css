@@ -28,17 +28,3 @@ right:0;
     text-align: center;
     color:aqua;
 }
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.btn button{
-    width: 100px;
-    background-color: aqua;
-    margin-top: 10px;
-    border: 0px;
-}
-.white{
-    color:#FFF;
-}
